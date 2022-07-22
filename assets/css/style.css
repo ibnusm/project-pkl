@@ -11,12 +11,6 @@
 /*======
   Main
 =======*/
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
     color: #666666;
     font-size: 15px;
@@ -629,8 +623,6 @@ button:focus{
 
 .event-inner{
 	margin-bottom: 30px;
-	border: 10px solid #fff;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 .event-img{
 	margin-bottom: 15px;
@@ -640,7 +632,6 @@ button:focus{
 .contact-box{
 	padding: 70px 0px;
 }
-.contact-block{}
 
 .contact-block .form-group .form-control{
 	background: #e6eceb;
@@ -698,7 +689,7 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .help-block ul li{
-	color: red;
+	color: rgb(252, 107, 107);
 }
 
 /* Footer */
@@ -719,45 +710,3 @@ select.form-control:not([size]):not([multiple]){
 .footer-box .footer-company-name a:hover{
 	color: #63c7bd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
